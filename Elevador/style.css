@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#botao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategrey;
+    border-radius: 15px;
+    padding: 25px 40px;
+}
+
+#botao div {
+    border-radius: 100%;
+    padding: 20px;
+    margin: 5px;
+    background-color: gray;
+    color: white;
+}
+
+#botao div:hover {
+    background-color: rgb(197, 191, 191);
+}
+
+#elevador {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(55, 165, 165);
+    border-radius: 15px;
+    padding: 0px 0px 0px 0px;
+}
+
+#andar1 {
+    padding: 50px;
+}
+
+#andar2 {
+    padding: 180px;
+}
+
+#andar3 {
+    padding: 180px;
+}
+
+.separar {
+    border-top: 2px solid #000000;
+}
+
+#elevadorzinho {
+    padding: 100px;
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+}
